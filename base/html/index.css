@@ -1,0 +1,20 @@
+.container{
+	position:relative;
+	width:250px;
+	height:320px;
+	background:#fff;
+	text-align:center;
+}
+
+.front{
+	position:absolute;
+	text-align:center;
+	font-family:arial;
+	border-radius:20px;
+	font-size:18px;
+	font-weight:bold;
+	
+}
+
+"{% static 'js/script.js' %}"
+{% load static %}
